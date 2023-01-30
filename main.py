@@ -29,11 +29,10 @@ y = []
 #for i in range(-10,11,1):
     #y.append(i)
 #example 15
-#couldn't get it to work
-#for i in range(-10,11,1):
-    #x.append(1/np.cos(i))
+for i in np.arange(-10,11,.01):
+    x.append(1/np.cos(i))
 
-#for i in range(-10,11,1):
-    #y.append(i)
+for i in np.arange(-10,11,.01):
+    y.append(i)
 plt.plot(y,x)
 plt.show()
